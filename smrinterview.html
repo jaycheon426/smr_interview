@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>스마트미디어렙 면접 준비 — 천지혜</title>
+<style>
+  body { font-family: -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; max-width: 860px; margin: 40px auto; padding: 0 20px 80px; line-height: 1.95; color: #1a1a1a; font-size: 14px; }
+  h1 { font-size: 22px; border-bottom: 3px solid #7c3aed; padding-bottom: 10px; }
+  h2 { font-size: 17px; margin-top: 44px; color: #6d28d9; border-left: 4px solid #7c3aed; padding-left: 12px; }
+  h3 { font-size: 14px; margin-top: 24px; color: #5b21b6; }
+  .meta { background: #f5f3ff; padding: 16px 20px; border-radius: 8px; margin-bottom: 24px; font-size: 13px; border: 1px solid #ddd6fe; }
+  .meta strong { color: #7c3aed; }
+  .core-msg { background: #6d28d9; color: white; padding: 14px 20px; border-radius: 8px; margin: 20px 0; text-align: center; font-size: 15px; font-weight: 600; letter-spacing: 0.3px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th, td { border: 1px solid #e5e5e5; padding: 9px 12px; text-align: left; vertical-align: top; }
+  th { background: #f5f3ff; font-weight: 600; color: #5b21b6; }
+  .q { background: #f5f3ff; padding: 12px 16px; border-radius: 6px; margin: 20px 0 4px; font-weight: 600; font-size: 13.5px; border-left: 3px solid #7c3aed; }
+  .a { padding: 10px 16px; margin: 0 0 8px; border-left: 3px solid #d1d5db; font-size: 13.5px; line-height: 1.95; }
+  .kw { background: #f5f3ff; color: #6d28d9; font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 20px; border: 1px solid #ddd6fe; display: inline-block; margin: 2px 3px 2px 0; }
+  .kw-row { margin: 6px 0 10px; }
+  .tip { background: #fef3c7; padding: 8px 12px; border-radius: 4px; font-size: 12px; margin: 4px 0 16px; border-left: 3px solid #f59e0b; }
+  .tip.green { background: #dcfce7; border-left-color: #16a34a; }
+  .tip.red { background: #fef2f2; border-left-color: #ef4444; }
+  .warn { color: #ea580c; font-weight: 600; }
+  .section-divider { border: none; border-top: 2px solid #e5e5e5; margin: 40px 0; }
+  .mindset { background: #eff6ff; padding: 16px 20px; border-radius: 8px; margin: 12px 0; font-size: 13px; }
+  .checklist { list-style: none; padding: 0; }
+  .checklist li { padding: 4px 0; font-size: 13px; }
+  .checklist li::before { content: "☐ "; color: #7c3aed; font-weight: 700; }
+  .badge { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; display: inline-block; margin-right: 6px; }
+  .badge-biz { background: #ede9fe; color: #5b21b6; }
+  .badge-hr { background: #fef3c7; color: #92400e; }
+  .badge-both { background: #dbeafe; color: #1e40af; }
+  .badge-port { background: #dcfce7; color: #166534; }
+  .badge-hard { background: #fce7f3; color: #831843; }
+  .badge-warn { background: #fee2e2; color: #991b1b; }
+  .gap-box { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 8px; padding: 16px 20px; margin: 12px 0; font-size: 13px; }
+  .gap-box strong { color: #c2410c; }
+  .strength-box { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 16px 20px; margin: 12px 0; font-size: 13px; }
+  .strength-box strong { color: #15803d; }
+</style>
+</head>
+<body>
+
+<h1>스마트미디어렙(SMR) 면접 준비 — 천지혜</h1>
+
+<div class="meta">
+  <p>📋 지원 포지션: <strong>시스템기획파트 데이터 분석가</strong></p>
+  <p>🏢 회사: <strong>스마트미디어렙(SMR)</strong> — 유튜브·포털 등 동영상 서비스 기반 콘텐츠·플랫폼·광고 통합 수익모델</p>
+  <p>🎯 팀 역할: 프리미엄 동영상 광고 청약-운영-리포트 통합 광고 시스템의 기획·고도화</p>
+  <p>💡 데이터 분석가 역할: 광고 운영 최적화 / 인벤토리 예측 / 광고 상품·운영 전략 설계 / 대시보드 구축</p>
+</div>
+
+<div class="strength-box">
+  <strong>✅ 천지혜님의 핵심 강점 — JD 매핑</strong><br><br>
+  <strong>완벽 매칭:</strong> 광고 전후 풀사이클 분석 (캠페인 사전 타겟 분석 → 사후 성과 분석), SQL·Python·Tableau 실무 경험, DMP 기반 오디언스·타겟팅 분석, Reach/Frequency 등 광고 성과 지표 분석, 대시보드 기획·구축 경험<br><br>
+  <strong>추가 연결 필요:</strong> "인벤토리 수요·공급 예측"은 직접 경험이 없으나 → 광고 요청·응답 데이터 분석 맥락으로 연결. "광고 상품 구조 제안"은 → 타겟 세그먼트 도출 후 캠페인 시나리오 제안 경험으로 연결.
+</div>
+
+<div class="core-msg">
+  핵심 메시지 → "광고 전 사이클 데이터를 연결한 풀사이클 분석가" | 타겟 → 분석 → 성과 → 인사이트 도출 → 의사결정 지원
+</div>
+
+<hr class="section-divider">
+
+<!-- ====== 1. SMR 생태계 파악 ====== -->
+<h2>1. SMR 비즈니스 파악 — 면접 전 반드시 숙지</h2>
+
+<h3>SMR이란?</h3>
+<p style="font-size:13px;">스마트미디어렙(SMR)은 KBS·MBC·SBS·JTBC 등 국내 주요 방송사의 유튜브 동영상 광고를 대행 판매하는 미디어렙사. 방송사 콘텐츠가 유튜브에서 재생될 때 붙는 광고(프리롤·미드롤 등) 수익을 방송사와 분배하는 구조. 인벤토리 = 광고가 붙을 수 있는 동영상 노출 기회(슬롯).</p>
+
+<table>
+  <tr><th>용어</th><th>SMR 맥락에서의 의미</th></tr>
+  <tr><td><strong>인벤토리</strong></td><td>방송사 콘텐츠에 광고를 집행할 수 있는 노출 슬롯. 공급(콘텐츠 조회수) vs 수요(광고주 예산) 불균형이 핵심 과제</td></tr>
+  <tr><td><strong>청약</strong></td><td>광고주(대행사)가 광고 집행을 요청하는 것. 청약 → 운영 → 리포트가 SMR 광고의 전체 사이클</td></tr>
+  <tr><td><strong>프리미엄 동영상 광고</strong></td><td>방송사 콘텐츠 앞뒤에 붙는 고품질 환경의 광고. 일반 유튜브 광고보다 브랜드 안전(Brand Safety) 높음</td></tr>
+  <tr><td><strong>Reach/Frequency</strong></td><td>도달(Reach) = 광고를 본 유니크 유저 수 / 빈도(Frequency) = 1인당 평균 광고 노출 횟수. 브랜딩 캠페인의 핵심 KPI</td></tr>
+  <tr><td><strong>CPM</strong></td><td>Cost Per Mille — 1,000회 노출당 광고 비용. 동영상 광고의 주요 과금 방식</td></tr>
+  <tr><td><strong>GRP</strong></td><td>Gross Rating Point — TV 광고 시청률 합산. 방송사 출신 인벤토리 특성상 GRP 개념 사용</td></tr>
+</table>
+
+<h3>시스템기획파트가 하는 일 (JD 기반 이해)</h3>
+<table>
+  <tr><th>업무</th><th>데이터 분석가 역할</th><th>천지혜님 연결 경험</th></tr>
+  <tr><td>광고 운영 최적화</td><td>콘텐츠 시청·광고 데이터 분석 → 캠페인 성과 진단</td><td>광고 성과 분석 (CPC/CPA, 노출/전환) / 캠페인 풀사이클 분석</td></tr>
+  <tr><td>인벤토리 예측</td><td>광고 요청·응답 데이터 기반 수요·공급 예측 정확도 향상</td><td>리텐션·코호트·퍼널 분석 방법론 → 패턴 기반 예측 연결 가능</td></tr>
+  <tr><td>광고 상품 구조 제안</td><td>콘텐츠 소비 패턴 + 유저 행동 + 광고 성과 통합 분석 → 상품 제안</td><td>DMP 타겟 세그먼트 도출 → 캠페인 시나리오 제안 (CASE 01~05)</td></tr>
+  <tr><td>대시보드 구축</td><td>영업 조직이 매출 지표 실시간 확인 가능한 시각화 환경 구축</td><td>Tableau 기반 실시간 모니터링 대시보드 기획·구축 경험 (CASE 06)</td></tr>
+  <tr><td>신규 사업 인사이트</td><td>새 사업영역 데이터 분석 → 신규 사업 인사이트 도출</td><td>R&D 프로젝트 (방송광고 구매전환 분석) 경험</td></tr>
+</table>
+
+<hr class="section-divider">
+
+<!-- ====== 2. 자기소개 ====== -->
+<h2>2. 자기소개 & 지원동기</h2>
+
+<div class="q"><span class="badge badge-hr">HR</span> 1분 자기소개 해주세요.</div>
+<div class="kw-row">
+  <span class="kw">풀사이클 분석</span> → <span class="kw">DMP·SQL 실무</span> → <span class="kw">광고 성과 분석</span> → <span class="kw">SMR에서 기여할 것</span>
+</div>
+<div class="a">
+  "안녕하세요, 스마트미디어렙 데이터 분석가에 지원한 천지혜입니다.<br><br>
+  저는 광고 제안용 사전 분석부터 캠페인 사후 성과 검증까지, 데이터가 광고의 전 사이클을 연결하도록 분석해온 풀사이클 분석가입니다. 아이지에이웍스에서 SQL을 활용해 대규모 DMP 데이터를 분석하고, 글로벌 자동차·보험·뷰티커머스 등 다양한 광고주의 타겟을 도출해 캠페인 전략으로 연결했습니다. 광고 성과 지표 — Reach, Frequency, 전환율 — 를 분석해 실제 캠페인 개선에 기여한 경험도 있습니다.<br><br>
+  SMR의 시스템기획파트에서는 콘텐츠 데이터와 광고 데이터를 연결해 인벤토리와 캠페인 전략을 고도화하는 역할을 담당하는 것으로 이해하고 있는데, 제가 해온 방식 — 데이터를 구조화하고 인사이트를 연결해 의사결정으로 이어지게 하는 것 — 과 정확히 맞닿아 있다고 생각해서 지원했습니다."
+</div>
+<div class="tip">💡 45~55초 분량. "풀사이클"이라는 단어는 본인이 이미 자기소개에 쓰고 있는 표현 — 자연스럽게 유지.</div>
+
+<div class="q"><span class="badge badge-hr">HR</span> 왜 SMR인가요? / 왜 이 포지션인가요?</div>
+<div class="a">
+  "지금까지 광고 대행사·DMP 회사 측에서 광고주를 위해 데이터를 분석해왔다면, SMR에서는 광고 매체 플랫폼 자체의 데이터를 직접 다루면서 더 근본적인 구조 — 인벤토리, 광고 상품, 운영 시스템 — 를 고도화하는 데 기여하고 싶었습니다.<br><br>
+  특히 SMR은 방송사 콘텐츠라는 고품질 인벤토리와 광고 데이터를 동시에 보유하고 있는 구조잖아요. 콘텐츠 시청 데이터와 광고 성과 데이터를 통합해서 인사이트를 도출하는 환경이 저한테는 도전적으로 느껴졌고, 제 경험을 가장 잘 활용할 수 있는 곳이라고 판단했습니다."
+</div>
+
+<hr class="section-divider">
+
+<!-- ====== 3. 핵심 예상 질문 ====== -->
+<h2>3. 핵심 예상 질문 & 답변</h2>
+
+<div class="q"><span class="badge badge-both">공통</span> 지원 직무의 핵심역량이 뭐라고 생각하고, 어떻게 갖췄나요?</div>
+<div class="kw-row">
+  <span class="kw">문제 정의</span> → <span class="kw">데이터 연결</span> → <span class="kw">인사이트 → 의사결정</span>
+</div>
+<div class="a">
+  "세 가지라고 생각해요. 첫째는 비즈니스 문제를 데이터 질문으로 전환하는 능력, 둘째는 여러 데이터 소스를 연결해서 분석하는 능력, 셋째는 분석 결과를 실제 의사결정에 연결되는 인사이트로 만드는 능력이요.<br><br>
+  첫 번째는 아티언스에서 글로벌 반도체 브랜드 웹사이트 개편 전후 성과를 분석하면서 '어떤 지표로 개편 효과를 판단할 것인가'를 정의하는 과정에서 갖췄어요. 두 번째는 아이지에이웍스에서 AWS S3 데이터레이크·DMP 데이터를 SQL로 결합해 유저 행동 분석을 수행하면서 쌓았습니다. 세 번째는 CASE 02 펫보험 타겟 분석처럼 데이터에서 '반응 가능성이 높은 유효 타겟'을 정의하고 캠페인 시나리오로 연결하는 작업을 반복하면서 갖춰왔어요."
+</div>
+
+<div class="q"><span class="badge badge-biz">실무</span> 광고 데이터 분석 경험 구체적으로 이야기해주세요.</div>
+<div class="kw-row">
+  <span class="kw">사전 타겟 분석</span> → <span class="kw">캠페인 설계</span> → <span class="kw">사후 성과 분석</span> → <span class="kw">인사이트 도출</span>
+</div>
+<div class="a">
+  "크게 두 트랙으로 경험해왔어요. 하나는 광고 사전 분석이고, 하나는 광고 사후 성과 분석이에요.<br><br>
+  사전 분석은 아이지에이웍스에서 광고주 KPI를 바탕으로 DMP 내 유저를 분석해서 타겟 오디언스를 도출하는 작업이었어요. CASE 01 글로벌 자동차 브랜드처럼 엔진별 소재 기획을 위해 유저 프로파일링을 선행하거나, CASE 03 뷰티 커머스 앱처럼 RFM 분석으로 쇼퍼 그룹을 나누고 타겟 특성을 도출했어요.<br><br>
+  사후 분석은 아티언스에서 광고 트래킹 코드를 설계하고, UTM 파라미터·Google Analytics 데이터를 기반으로 광고 유입부터 전환까지 퍼널 성과를 분석했어요. CPC·CPA 등 광고 효율 측정뿐 아니라 웹사이트 행동 분석까지 연결해서 캠페인 성과를 진단했습니다."
+</div>
+
+<div class="q"><span class="badge badge-biz">실무</span> SQL을 어떻게 활용해왔나요? 복잡한 쿼리 작성 경험이 있나요?</div>
+<div class="kw-row">
+  <span class="kw">AWS S3 + Athena</span> → <span class="kw">CTE 구조화</span> → <span class="kw">RFM 직접 추출</span> → <span class="kw">데이터 소스 결합</span>
+</div>
+<div class="a">
+  "아이지에이웍스에서 AWS S3 데이터레이크에 적재된 데이터를 Athena와 Dbeaver로 직접 추출·분석했어요. 가장 복잡한 케이스는 CASE 03 뷰티 커머스 RFM 분석이었어요. 다양한 데이터 소스를 결합하고, CTE를 활용해 쿼리를 구조화한 뒤 유저별 최근성(R)·빈도(F)·규모성(M) 데이터를 직접 추출했어요. 단순 조회가 아니라 분석 목적에 맞게 데이터를 정의하고 설계하는 과정까지 담당했습니다.<br><br>
+  CASE 04 커머스 플랫폼 유저 행태 분석도 마찬가지로, 쇼핑 업종 MAU 상위 20개 앱의 마케팅 퍼포먼스 매트릭스를 산출하기 위해 여러 데이터 소스를 결합하고 이탈 유저를 정의하는 로직을 직접 설계했어요."
+</div>
+
+<div class="q"><span class="badge badge-biz">실무</span> Tableau 대시보드 구축 경험을 이야기해주세요.</div>
+<div class="kw-row">
+  <span class="kw">설계 → 명세서 → 런칭</span> → <span class="kw">실시간 모니터링</span> → <span class="kw">의사결정 속도 단축</span>
+</div>
+<div class="a">
+  "아티언스에서 Tableau 기반 마케팅 성과 측정 자동화 대시보드를 기획한 게 가장 본격적인 경험이에요. 광고 데이터와 웹로그 데이터를 하나의 대시보드에서 볼 수 있는 싱글뷰(Single-view) 환경을 설계했어요. 데이터 적재 테이블 설계부터 화면 설계서·기능 명세서 작성까지 담당했고, 광고대행사가 데이터 기반으로 전략을 빠르게 조정할 수 있도록 설계했습니다.<br><br>
+  아이지에이웍스에서는 광고 성과 레퍼런스 추천·분석 시스템을 기획하면서 실시간 모니터링 대시보드를 구축했어요. 핵심 비즈니스 지표 추적 체계를 수립해서 의사결정 속도 단축에 기여했습니다."
+</div>
+
+<div class="q"><span class="badge badge-biz">실무</span> Reach, Frequency 같은 동영상 광고 지표를 다뤄보셨나요?</div>
+<div class="kw-row">
+  <span class="kw">CASE 05 방송광고 분석</span> → <span class="kw">GRP·Reach·Frequency</span> → <span class="kw">페르소나별 광고 도달 성과</span>
+</div>
+<div class="a">
+  "네, CASE 05 방송광고 구매전환 및 오디언스 타겟 효과 분석에서 직접 다뤘어요. 22년 상반기 TV 광고를 집행한 골프 브랜드 4개를 대상으로 GRP·Reach·Frequency를 페르소나별로 분석했어요.<br><br>
+  핵심 발견은 동일 헤비골퍼라도 골프 채널 집중 전략에서 누적 시청률(GRP)이 최대 5배 높다는 점이었어요. 또한 광고 노출 vs 미노출, Core Target vs Non-Target의 구매 전환율을 비교해서 Core Target에게 미치는 구매 전환 효과가 최대 5배 높음을 수치로 규명했습니다. 도달 성과와 실제 구매 전환을 데이터로 연결해 분석한 경험이에요."
+</div>
+
+<div class="q"><span class="badge badge-biz">실무</span> 인벤토리 예측이나 수요·공급 분석을 해보신 적 있나요?</div>
+<div class="kw-row">
+  <span class="kw">직접 경험 없음 — 솔직하게</span> → <span class="kw">연결 가능한 방법론 제시</span> → <span class="kw">리텐션·코호트·패턴 분석</span>
+</div>
+<div class="a">
+  "광고 인벤토리 수요·공급 예측을 직접 담당한 경험은 없어요. 다만 유사한 분석 구조는 다뤄왔어요.<br><br>
+  아이지에이웍스에서 리텐션·코호트 분석을 통해 유저 행동 패턴을 파악하고 미래 행동을 추론하는 작업을 해왔어요. 인벤토리 예측도 결국은 콘텐츠 조회 패턴(공급)과 광고 요청 패턴(수요)을 데이터로 읽어서 불균형을 예측하는 문제라고 이해해요. 합류하면 SMR의 데이터 구조를 빠르게 파악하고, 기존 분석 방법론을 인벤토리 예측에 적용해나가고 싶어요."
+</div>
+<div class="tip">💡 솔직하게 인정하되, 분석 사고방식과 방법론 연결로 마무리. "모릅니다"에서 끝내지 말 것.</div>
+
+<div class="q"><span class="badge badge-biz">실무</span> 다양한 이해관계자(개발/운영/비즈니스)와 협업한 경험이 있나요?</div>
+<div class="a">
+  "네, 두 회사 모두 다양한 이해관계자와의 협업이 핵심이었어요.<br><br>
+  아티언스에서는 광고 트래킹 코드와 웹로그 설계를 위해 개발팀과 긴밀하게 협업했어요. 데이터 로깅 체계 구축 자체가 여러 유관 부서와의 협력으로 이뤄진 작업이었고, 대시보드 구축 과정에서도 개발 엔지니어와 설계 기반으로 계속 커뮤니케이션했어요.<br><br>
+  아이지에이웍스에서는 광고 성과 레퍼런스 시스템을 기획할 때 현업 캠페인 담당자와 인터뷰를 통해 Pain Point를 도출하고 해결방안을 설계했어요. 분석 결과를 광고대행사·내부 영업 조직에 전달하는 리포트 작성도 담당했기 때문에 비즈니스 팀과의 소통도 경험해왔습니다."
+</div>
+
+<hr class="section-divider">
+
+<!-- ====== 4. 포트폴리오 심화 ====== -->
+<h2>4. 포트폴리오 심화 — 꼬리질문 대비</h2>
+
+<h3>CASE 01 — 글로벌 자동차 브랜드 광고 풀사이클 분석</h3>
+<div class="q"><span class="badge badge-port">포트폴리오</span> 가장 임팩트가 컸던 프로젝트를 하나 이야기해주세요.</div>
+<div class="a">
+  "CASE 01 글로벌 자동차 브랜드 캠페인 풀사이클 분석 프로젝트예요. 광고 집행 이전 단계부터 이후까지 데이터로 연결한 프로젝트였어요.<br><br>
+  캠페인 집행 전에 먼저 기존에 트래킹 중이던 웹사이트 이벤트 데이터를 분석해서 엔진별 타겟 프로파일링을 선행했어요. 그걸 바탕으로 엔진별 광고 소재 전략과 타겟팅 방향을 잡았고, UTM 파라미터와 이벤트 태깅 설계까지 직접 담당했어요. 캠페인 집행 후에는 CPC·CPA뿐 아니라 유입 경로별, 소재·매체별 전환 성과를 분석하고, 온라인 견적 완료까지의 웹사이트 행동 퍼널 전체를 분석했어요.<br><br>
+  제가 이 프로젝트를 중요하게 생각하는 이유는, 단순히 광고 집행 후 성과를 집계한 게 아니라 가설 수립 → 구조 설계 → 데이터 수집 → 성과 검증의 전체 사이클을 데이터로 연결했기 때문이에요."
+</div>
+
+<div class="q"><span class="badge badge-warn">꼬리</span> UTM 파라미터 설계를 직접 한 건가요? 어떤 기준으로 설계했어요?</div>
+<div class="a">
+  "네, 직접 설계했어요. 기준은 두 가지였어요. 첫째는 분석 목적 — 어떤 매체에서, 어떤 소재를 보고, 어떤 유저가 유입됐는지를 추적할 수 있어야 한다는 것. 둘째는 일관성 — 담당자가 바뀌어도 데이터가 깨지지 않도록 네이밍 규칙을 표준화하는 것이었어요.<br><br>
+  구체적으로는 utm_source(매체), utm_medium(광고 형태), utm_campaign(캠페인명), utm_content(소재 구분)까지 설계했고, 엔진별·광고그룹별로 파라미터를 다르게 설정해서 세분화된 성과 분석이 가능하도록 구조를 잡았어요."
+</div>
+
+<h3>CASE 03 — 뷰티 커머스 RFM 분석</h3>
+<div class="q"><span class="badge badge-port">포트폴리오</span> RFM 분석에서 Python을 어떻게 활용했나요?</div>
+<div class="a">
+  "SQL로 AWS S3에서 유저별 R·F·M 데이터를 추출한 후, Python으로 R·F·M 각각을 Score로 변환하고 4개 그룹으로 유저를 나누는 작업을 했어요. SQL만으로도 가능하지만 스코어 변환 로직과 그룹 설계가 반복·조정이 필요한 작업이라 Python으로 유연하게 처리했어요.<br><br>
+  결과적으로 Heavy-shopper·Mid-shopper·Light-shopper·One-time-buy 4개 그룹을 정의하고, 각 그룹별 건강관리 유형별 관여도를 분석해서 타겟팅 전략에 바로 활용 가능한 세그먼트를 도출했어요."
+</div>
+
+<div class="q"><span class="badge badge-warn">꼬리</span> 건강관리 유형별 관여도 지수를 '자체적으로 개발'했다고 하는데, 어떤 방식이었나요?</div>
+<div class="a">
+  "DMP 데이터에서 건강관리 관련 앱을 6개 카테고리로 분류했어요 — 피트니스, 식단관리, 영양제, 의료·헬스케어, 뷰티·스킨케어, 스포츠 활동 등으로요. 각 카테고리별로 앱 설치 여부, 사용 빈도, 활동성(주간 실행 횟수 등)을 지표로 삼아 종합 지수를 계산했어요.<br><br>
+  기존에 있던 지표를 그대로 쓴 게 아니라, 분석 목적에 맞게 카테고리를 정의하고 가중치를 설계한 거예요. 이 지수 덕분에 그룹별로 단순 데모가 아닌 '이 유저가 건강에 얼마나 관여하는가'라는 차원의 특성 차이를 보여줄 수 있었어요."
+</div>
+
+<h3>CASE 05 — 방송광고 구매전환 분석</h3>
+<div class="q"><span class="badge badge-biz">실무</span> 방송광고 데이터와 구매 데이터를 어떻게 연결했나요?</div>
+<div class="a">
+  "광고 노출 ADID 데이터를 기반으로 연결했어요. 광고를 본 유저의 기기 식별자(ADID)와 DMP 내 구매 행동 데이터를 매핑해서, 광고 노출 이후 실제 구매 전환이 발생했는지를 추적하는 방식이었어요.<br><br>
+  이 방식으로 광고 노출 그룹 vs 미노출 그룹, Core Target vs Non-Target 간 구매 전환율을 비교할 수 있었어요. 동일 광고라도 Core Target에게 미치는 구매 전환 효과가 최대 5배 높다는 결론이 데이터로 나왔고, 이게 캠페인 타겟팅 전략 수립의 근거가 됐습니다."
+</div>
+
+<hr class="section-divider">
+
+<!-- ====== 5. 역량 검증 질문 ====== -->
+<h2>5. 역량 검증 & HR 질문</h2>
+
+<div class="q"><span class="badge badge-hr">HR</span> 데이터 분석 결과를 바탕으로 서비스·시스템 개선을 제안한 경험이 있나요?</div>
+<div class="a">
+  "아이지에이웍스에서 광고 성과 레퍼런스 추천·분석 시스템 기획에 참여했어요. 현업 캠페인 담당자 인터뷰를 통해 Pain Point를 도출하고, 그 결과로 미디어믹스 레퍼런스 시스템을 기획했어요.<br><br>
+  담당자들이 가장 어려워하는 부분이 '어떤 매체 조합이 효과적이었는가'를 과거 데이터에서 빠르게 꺼내보는 것이었어요. 개별 캠페인 성과 데이터를 매체별로 표준화·태소노미 설계해서 레퍼런스 형태로 제공하는 시스템을 기획했고, 실시간 모니터링 대시보드와 함께 의사결정 속도를 단축하는 방향으로 연결했어요."
+</div>
+
+<div class="q"><span class="badge badge-hr">HR</span> 본인만의 차별화 포인트가 있다면?</div>
+<div class="a">
+  "두 가지예요. 첫째는 분석의 전 사이클을 연결하는 능력이에요. 타겟 정의부터 캠페인 설계, 트래킹 구조 설계, 사후 성과 분석까지 분절 없이 이어지는 경험을 해왔어요. 분석만 하는 게 아니라 '그 분석이 실제 캠페인에 어떻게 활용되는가'까지 책임진 경험이에요.<br><br>
+  둘째는 데이터에서 직접 분석 구조를 설계하는 능력이에요. 기존에 없는 지수를 직접 정의하거나(CASE 03 건강관리 관여도 지수), 복잡한 데이터 소스를 목적에 맞게 결합해서 쿼리를 구조화하는 작업을 반복해왔어요. 주어진 데이터를 분석하는 것보다 분석 자체를 설계하는 데 더 익숙한 편이에요."
+</div>
+
+<div class="q"><span class="badge badge-hr">HR</span> 가장 어려웠던 분석 경험은?</div>
+<div class="a">
+  "CASE 05 방송광고 분석이었어요. 어려운 이유가 두 가지였어요. 첫째는 데이터 소스 결합의 복잡성이에요. DMP 데이터와 채널별 광고 노출 데이터를 정확하게 매핑해서 의미 있는 분석 단위를 만드는 것 자체가 까다로운 작업이었어요.<br><br>
+  둘째는 기준 정의의 어려움이었어요. 인구통계(성/연령)가 아닌 모바일 사용행태 데이터로 Core Target(골퍼)을 정의해야 했는데, '무엇을 골퍼로 볼 것인가'라는 기준 자체를 데이터에서 설계해야 했어요. 필드·스크린 골퍼 5개 페르소나 그룹으로 세분화하는 기준도 직접 수립했어요. 분석 결과 자체보다 '무엇을 어떻게 측정할 것인가'를 정의하는 과정이 더 어렵고 중요하다는 걸 이 프로젝트에서 가장 깊이 체감했어요."
+</div>
+
+<div class="q"><span class="badge badge-hr">HR</span> 본인의 약점은?</div>
+<div class="a">
+  "분석 범위를 넓히다 보면 완벽하게 하고 싶은 욕심이 생겨서 속도가 느려지는 경우가 있어요. 모든 데이터를 다 보고 싶어하는 편인데, 실제 비즈니스에서는 80%의 정확도로 빠르게 방향을 잡는 게 더 중요할 때가 많더라고요.<br><br>
+  그래서 지금은 분석 시작 전에 '이 분석이 어떤 의사결정을 지원하는가'를 먼저 명확히 하고, 그 목적에 집중해서 범위를 정하는 방식으로 의식적으로 조절하고 있어요."
+</div>
+
+<div class="q"><span class="badge badge-hr">HR</span> 5년 후 어떤 분석가가 되고 싶으세요?</div>
+<div class="a">
+  "데이터를 보면 비즈니스의 다음 움직임이 보이는 분석가가 되고 싶어요. 지금은 주어진 문제를 분석하는 데 익숙한데, 앞으로는 데이터를 보면서 '이 패턴이 앞으로 어떤 문제나 기회로 이어질 것인가'를 먼저 제시하는 역할을 하고 싶어요.<br><br>
+  SMR에서 광고 시스템의 전체 데이터 흐름 — 콘텐츠 시청, 광고 요청, 청약, 성과 — 을 깊게 이해하게 되면 그 방향으로 성장할 수 있다고 생각해서 더 기대가 됩니다."
+</div>
+
+<div class="q"><span class="badge badge-hr">HR</span> AI/자동화 관련 프로젝트 경험이 있나요? (우대사항)</div>
+<div class="a">
+  "직접적인 AI 모델 개발 경험은 없지만, 분석 프로세스에서 자동화를 적용한 경험이 있어요. 아이지에이웍스에서 광고 성과 레퍼런스 추천 시스템을 기획할 때 실시간 모니터링 자동화 대시보드를 구축했고, 아티언스에서 Tableau 기반 마케팅 성과 측정 자동화 대시보드를 설계했어요.<br><br>
+  또한 Python을 활용해 RFM 스코어 변환과 유저 그룹 분류 작업을 자동화했어요. AI·자동화 도구를 적극 활용해서 분석 생산성을 높이는 방향에 관심이 많고, SMR에서도 그 방향으로 기여하고 싶습니다."
+</div>
+
+<hr class="section-divider">
+
+<!-- ====== 6. 약점 보완 ====== -->
+<h2>6. 약한 항목 대응 답변</h2>
+
+<div class="gap-box">
+  <strong>⚠️ JD와의 갭 — 미리 준비해야 할 것들</strong><br><br>
+  ① 인벤토리 수요·공급 예측 직접 경험 없음 → 리텐션·코호트 방법론으로 연결<br>
+  ② 동영상 광고 플랫폼(유튜브·포털) 운영 직접 경험 없음 → 광고 매체 데이터 표준화·분석 경험으로 연결<br>
+  ③ Looker·Power BI 경험 없음 → Tableau 경험 + 빠른 적응 가능성으로 커버<br>
+  ④ 데이터 분석 실무 경력 1년 이상 → 5년 4개월로 충분히 충족
+</div>
+
+<div class="q"><span class="badge badge-warn">약점</span> 동영상 광고 플랫폼 운영 경험이 없는데 SMR 시스템에 적응할 수 있을까요?</div>
+<div class="a">
+  "동영상 광고 플랫폼을 직접 운영한 경험은 없어요. 다만 광고 데이터의 구조 — 광고 집행, 노출, 전환, 성과 측정, 리포팅 — 는 아티언스에서 설계하고 분석해온 경험이에요.<br><br>
+  SMR의 광고 청약-운영-리포트 사이클과 제가 해온 캠페인 사전분석-트래킹 설계-사후성과 분석 사이클이 본질적으로 같은 구조라고 생각해요. 도메인은 다르지만 데이터를 통해 광고의 흐름을 이해하고 분석하는 방식은 동일하게 적용할 수 있어요. 처음 3개월은 SMR 데이터 구조와 인벤토리 개념을 파악하는 데 집중하겠습니다."
+</div>
+
+<div class="q"><span class="badge badge-warn">약점</span> Looker나 Power BI 경험이 없는데요?</div>
+<div class="a">
+  "Looker·Power BI를 직접 쓴 경험은 없어요. Tableau를 주력으로 사용해왔고, 대시보드 설계 — 어떤 지표를 어떻게 시각화해서 누가 볼 것인가 — 의 사고방식은 동일하다고 생각해요. 인터페이스와 기능 차이는 빠르게 습득할 수 있는 부분이에요."
+</div>
+
+<div class="q"><span class="badge badge-warn">약점</span> 미디어렙사 경험이 없는데요?</div>
+<div class="a">
+  "미디어렙사에서 직접 근무한 경험은 없어요. 다만 아이지에이웍스에서 광고대행사와 협업하면서 광고 제안용 분석을 제공하고, 매체별 데이터 표준화 작업에 참여한 경험이 있어요. 광고 생태계에서 분석가가 어떤 역할을 하는지는 수요자 측에서 충분히 경험해왔어요.<br><br>
+  오히려 대행사·광고주 입장에서 '어떤 분석이 실질적으로 도움이 되는가'를 직접 경험한 사람이 들어오면, SMR의 데이터 분석이 광고주와 대행사에 더 실질적으로 연결되는 방향으로 기여할 수 있다고 생각해요."
+</div>
+
+<div class="q"><span class="badge badge-warn">약점</span> 왜 회사를 그만두셨나요?</div>
+<div class="kw-row">
+  <span class="kw">사업 축소 → 조직 변화</span> → <span class="kw">분석 업무 감소</span> → <span class="kw">합의 퇴사</span> → <span class="kw">분석가로서의 방향성</span>
+</div>
+<div class="a">
+  "분석가로 입사했는데, 시간이 지나면서 광고 대행·미디어렙 사업이 점차 축소되기 시작했어요. 그 과정에서 분석 조직도 재편이 이뤄졌고, 저는 분석 업무 외에 업무 효율 개선이나 기획적인 역할을 함께 맡게 됐어요.<br><br>
+  한편으로는 다양한 역할을 경험하는 기회이기도 했지만, 분석 업무 자체는 점점 줄어드는 방향이었어요. '지금 내가 가야 할 방향이 맞는가'를 고민하던 시점에, 경영상의 이유로 조직이 해체되면서 분석 조직이 유지되기 어렵다는 판단이 섰어요. 회사와 합의하에 퇴사하게 됐고, 이제는 데이터 분석이라는 방향을 더 명확히 하고 싶다는 확신이 오히려 생겼어요."
+</div>
+<div class="tip green">✅ 조직 해체는 개인 귀책이 아님 — 담담하게, 그리고 "그래서 더 확신이 생겼다"는 흐름으로 마무리. 억울함이나 불만처럼 들리지 않도록.</div>
+
+<div class="q"><span class="badge badge-hr">HR</span> 퇴사 후 지금까지 뭘 하셨어요?</div>
+<div class="kw-row">
+  <span class="kw">프로젝트 정리</span> → <span class="kw">부족한 역량 채우기</span> → <span class="kw">Python + AI 활용</span> → <span class="kw">분석가로서 재정비</span>
+</div>
+<div class="a">
+  "3월 퇴사 이후 지금까지, 크게 두 가지에 집중했어요.<br><br>
+  첫째는 그동안 해온 분석 프로젝트를 제대로 정리하는 것이었어요. 실무에 치이면서 미처 정리하지 못했던 분석 과정과 인사이트를 다시 들여다보고, 포트폴리오로 구조화했어요. 돌아보니 놓쳤던 부분도 보이고, 내가 어떤 분석을 잘하고 어디가 부족한지가 더 선명하게 보였어요.<br><br>
+  둘째는 기본기를 다시 단단하게 쌓는 것이었어요. 통계 개념을 다시 정리하면서 분석의 근거를 더 명확하게 세우는 연습을 하고 있고, 실무에서 상대적으로 쓸 기회가 적었던 Python도 함께 다지고 있어요. 여기에 요즘 분석 환경에서 빠질 수 없는 AI 활용도 직접 적용해보면서 감각을 쌓고 있고요. 쉬는 기간이라기보다 분석가로서 다음 단계를 준비하는 시간으로 쓰고 있습니다."
+</div>
+<div class="tip">💡 "쉬었다"는 표현 쓰지 않기. 공백기가 아닌 준비 기간이라는 프레임 유지. Python·AI 활용은 현재 진행형으로 말하기.</div>
+
+<hr class="section-divider">
+
+<!-- ====== 7. 지식 검증 ====== -->
+<h2>7. 지식 검증 질문 & 답변 — 광고 도메인 핵심 용어</h2>
+
+<table>
+  <tr><th style="width:22%">용어</th><th>SMR 맥락 설명</th></tr>
+  <tr><td><strong>DMP</strong></td><td>Data Management Platform. 유저 행동 데이터를 수집·분류·활용하는 플랫폼. 아이지에이웍스 DMP가 핵심 분석 환경이었음</td></tr>
+  <tr><td><strong>Reach / Frequency</strong></td><td>도달(Reach) = 광고를 본 유니크 유저 수. 빈도(Frequency) = 1인당 평균 노출 횟수. 브랜딩 캠페인의 핵심 KPI. CASE 05에서 직접 분석</td></tr>
+  <tr><td><strong>GRP</strong></td><td>Gross Rating Point. TV 시청률 합산 지표. CASE 05 방송광고 분석에서 활용</td></tr>
+  <tr><td><strong>인벤토리</strong></td><td>광고를 집행할 수 있는 노출 슬롯. SMR에서는 방송사 콘텐츠 조회 기회 = 공급, 광고주 청약 = 수요</td></tr>
+  <tr><td><strong>CPM / CPC / CPA</strong></td><td>CPM = 1000회 노출당 비용(브랜딩), CPC = 클릭당 비용(퍼포먼스), CPA = 전환당 비용(성과형)</td></tr>
+  <tr><td><strong>RFM</strong></td><td>Recency(최근성)·Frequency(빈도)·Monetary(규모성). 유저 가치 세분화 모형. CASE 03에서 직접 설계·적용</td></tr>
+  <tr><td><strong>퍼스트파티 데이터</strong></td><td>자사 플랫폼에서 직접 수집한 데이터. 쿠키리스 시대 핵심 자산. SMR의 콘텐츠 시청 데이터가 이에 해당</td></tr>
+  <tr><td><strong>어트리뷰션</strong></td><td>어떤 광고가 전환에 기여했는지 판단. CASE 05에서 광고 노출→구매 전환 추적이 이에 해당</td></tr>
+  <tr><td><strong>코호트 분석</strong></td><td>특정 시점에 동일 행동을 한 그룹을 추적해 패턴 파악. 리텐션 분석과 함께 인벤토리 예측 방법론으로 연결 가능</td></tr>
+</table>
+
+<div class="q"><span class="badge badge-hard">지식</span> 인벤토리 수요·공급 불균형을 데이터로 어떻게 접근하겠어요?</div>
+<div class="a">
+  "크게 두 방향으로 접근하겠어요. 공급 측면에서는 콘텐츠별·시간대별·채널별 조회수 패턴을 분석해서 어느 슬롯에 얼마나 광고를 채울 수 있는지 예측하는 것. 수요 측면에서는 광고주 청약 이력 데이터를 분석해서 캠페인 유형별·시기별 수요 패턴을 파악하는 것이에요.<br><br>
+  두 데이터를 교차하면 '이 시기에 어떤 인벤토리가 부족하고 어디가 남는지'를 미리 파악해서 영업팀이 선제적으로 청약을 유도하거나 상품 구조를 조정하는 데 쓸 수 있어요. 리텐션·코호트 분석으로 유저 행동 패턴을 예측하던 방법론과 구조적으로 유사한 접근이라고 생각해요."
+</div>
+
+<div class="q"><span class="badge badge-hard">지식</span> 광고 성과 데이터를 시각화할 때 가장 중요하게 생각하는 것은?</div>
+<div class="a">
+  "'누가, 어떤 결정을 하기 위해 보는가'를 먼저 정의하는 것이에요. 같은 광고 성과 데이터라도 영업팀이 보는 것과 캠페인 담당자가 보는 것, 경영진이 보는 것은 달라야 해요.<br><br>
+  CASE 06에서 싱글뷰 대시보드를 설계할 때도 '광고대행사가 전략을 빠르게 조정할 수 있는 것'이 목적이었기 때문에, 캠페인 기간 동안 유입 경로·소재·매체별 효율과 전환까지 한 화면에서 볼 수 있는 구조로 설계했어요. 예쁜 시각화보다 '이 화면 하나로 어떤 결정을 내릴 수 있는가'가 기준이에요."
+</div>
+
+<hr class="section-divider">
+
+<!-- ====== 8. 위험 포인트 ====== -->
+<h2>8. 위험 포인트 대비</h2>
+
+<div class="q"><span class="badge badge-warn">위험</span> 경력 5년인데 마케팅 솔루션국 데이터 분석가로 지원한 이유가 있나요? (수준 우려)</div>
+<div class="a">
+  "경력이 쌓일수록 오히려 더 단단한 도메인에서 깊어지고 싶다는 생각이 들었어요. 광고 데이터 분석이라는 영역에서 SMR처럼 콘텐츠 플랫폼과 광고 시스템이 결합된 환경을 경험한 적이 없어요. 인벤토리 예측이나 광고 상품 구조를 데이터로 고도화하는 일을 직접 해보고 싶은 욕심이 이 포지션을 선택한 이유예요."
+</div>
+
+<div class="q"><span class="badge badge-warn">위험</span> 이력서에 비슷한 내용이 반복된 것 같은데요?</div>
+<div class="a">
+  "맞아요, 핵심 역할 요약 부분에 중복 표현이 있어요. 작성 과정에서 정리가 미흡했던 부분이에요. 실제 경험을 말씀드리면, 웹·앱 데이터 수집 구조 설계는 아티언스에서, 광고-웹로그 통합 분석은 두 회사 모두에서 각각 다른 맥락으로 수행했어요. 내용이 겹쳐보인 점은 죄송하고, 구체적인 질문 주시면 각 경험을 분리해서 말씀드리겠습니다."
+</div>
+<div class="tip red">⚠️ 이력서 1페이지 마지막 두 bullet이 거의 동일하게 반복됨. 면접관이 짚으면 당황하지 말고 솔직하게 인정.</div>
+
+<div class="tip red">🚫 절대 하면 안 되는 말: "SMR이 어떤 회사인지 정확히 몰랐는데..." / 인벤토리·청약 등 핵심 용어를 모르는 듯한 반응 / "분석만 해봤지 시스템 기획은 잘 몰라요" — 시스템기획파트의 데이터 분석가 역할임을 항상 의식</div>
+
+<hr class="section-divider">
+
+<!-- ====== 9. 역질문 ====== -->
+<h2>9. 역질문</h2>
+
+<ul>
+  <li>"시스템기획파트 데이터 분석가로서 첫 3~6개월 안에 가장 집중해줬으면 하는 부분이 있을까요?"</li>
+  <li>"데이터 분석가가 광고 상품 구조 제안이나 인벤토리 전략 수립에 얼마나 직접적으로 참여하는 구조인가요?"</li>
+  <li>"현재 팀에서 데이터 분석 환경(툴, 데이터 소스, 인프라)은 어떻게 구성되어 있나요?"</li>
+</ul>
+
+<div class="tip red">⚠️ "질문 없어요"는 절대 금지. 2개 중 1개만 자연스럽게.</div>
+
+<hr class="section-divider">
+
+<!-- ====== 10. 체크리스트 ====== -->
+<h2>10. 면접 전 체크리스트 & 마인드셋</h2>
+
+<ul class="checklist">
+  <li>CASE 01~06 각각 한 줄로 요약해서 암기 — 어떤 광고주, 어떤 분석, 어떤 결과</li>
+  <li>핵심 수치 정리 — 경력 5년 4개월 / 아이지에이웍스 3년 11개월 / 아티언스 1년 5개월</li>
+  <li>SMR 비즈니스 구조 1분 안에 설명 연습 (방송사 콘텐츠 → 유튜브 광고 → 청약-운영-리포트)</li>
+  <li>자기소개 소리 내서 연습 — 45~55초</li>
+  <li>이력서 반복 부분 대응 답변 숙지</li>
+  <li>인벤토리·청약·Reach/Frequency·GRP 용어 자연스럽게 사용 연습</li>
+  <li>CASE 05 방송광고 분석 — GRP·Reach·Frequency 구체 수치 재확인</li>
+</ul>
+
+<div class="mindset">
+  <p><strong>면접관에게 보여줄 것:</strong> "이 사람은 광고 데이터의 전 사이클을 설계하고 분석해본 사람이다. SMR의 콘텐츠·광고 데이터를 연결해서 실질적인 인사이트를 낼 수 있는 사람이다."</p>
+</div>
+
+<ul>
+  <li>"풀사이클 분석가"라는 자기 정의를 일관되게 유지 — 사전 타겟 분석 → 트래킹 설계 → 사후 성과 분석 → 인사이트 → 의사결정</li>
+  <li>내부를 모르는 건 솔직하게 인정 — "합류하면 SMR 데이터 구조부터 파악하겠습니다"</li>
+  <li>경험이 없는 부분은 방법론과 사고방식으로 연결 — 절대 "모릅니다"로 끝내지 말 것</li>
+  <li><span class="warn">⚠️ "준비한 티" 주의</span> — 자연스럽게 대화처럼, 포트폴리오 번호(CASE 01 등)는 면접장에선 쓰지 말고 내용으로 설명</li>
+  <li>데이터 분석가이지만 <strong>"비즈니스 의사결정을 지원하는 역할"</strong>임을 항상 의식 — 분석 기술보다 "이 분석이 왜 필요한가"를 먼저 말하기</li>
+</ul>
+
+</body>
+</html>
